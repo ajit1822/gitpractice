@@ -1,0 +1,6 @@
+Git is the distributed version control system. In DCS, each user is managing the version at local level and pushing the final version into the centralized repository such as Github, Gitlab etc.
+
+Basic git command include:
+git init #initializing git
+git add <file_name>		#Adding file to git tracking
+git commit -m "commit message" <file_name> 	#Adding file in commit area
