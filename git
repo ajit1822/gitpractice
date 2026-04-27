@@ -1,6 +1,10 @@
-Git is the distributed version control system. In DCS, each user is managing the version at local level and pushing the final version into the centralized repository such as Github, Gitlab etc.
+#Git is the distributed version control system. In DCS, each user is managing the version at local level and pushing the final version into the centralized repository such as Github, Gitlab etc.
 
-Basic git command include:
+#Basic git command include:
 git init #initializing git
 git add <file_name>		#Adding file to git tracking
 git commit -m "commit message" <file_name> 	#Adding file in commit area
+
+#Command to set config:
+git config --global --edit 	#This will open config file and there we can edit username and email id
+git commit --amend --reset-author 	#This command will open an editor where we have to provide new commit and save. This will update author 
