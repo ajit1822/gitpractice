@@ -17,4 +17,7 @@ Also command "git restore --staged fileName" is used to move file from staging a
 
 git diff command gives the difference between the file in untracked area.
 
-###########################################################################3
+GIT MERGE
+Git merge is a scenario where developer fails to pull code from remote repository before making changes into there local repository. In this scenaria, when the developer will try to push changes to remote repo he/she will face a merge conflict issue. This is known as GIT Merge.
+
+Generally Git merge is resolved by sitting with the developer and understanding who's commit we want to retain and delete the other commit by vi into the file and providing commit.
