@@ -11,3 +11,8 @@ git commit --amend --reset-author 	#This command will open an editor where we ha
 
 #Command to pull changes from remote repo
 git pull origin master #Note: Here origin is the remote repo which is stored in your local. Origin can be checked via command "git remote -v" and master is the branch name of local. 
+
+"git restore fileName" is the command which unstage the staged file. While unstaging, it also delete the modification done on the file.
+Also command "git restore --staged fileName" is used to move file from staging area to track area. In restore from staged area, the current will not be impacted as git restore command in tracked area.
+
+git diff command gives the difference between the file in untracked area.
